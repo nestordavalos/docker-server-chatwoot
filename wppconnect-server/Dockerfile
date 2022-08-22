@@ -6,7 +6,7 @@ RUN apk add wget && \
     apk add --no-cache git
 
 WORKDIR /home/node
-RUN git clone https://github.com/wppconnect-team/wppconnect-server.git /home/node/app 
+RUN git clone https://github.com/nestordavalos/chatwoot.git /home/node/app 
 
 WORKDIR /home/node/app
 
